@@ -1,0 +1,9 @@
+kind: pipeline
+name: greeting
+
+steps:
+- name: en
+  image: alpine
+  commands:
+  - echo hello
+  - echo world
